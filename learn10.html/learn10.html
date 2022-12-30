@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn10.html | table elements</title>
+</head>
+<body>
+    <h1>learn10.html | table elements</h1><hr><br>
+<!--<table>
+        <caption>table title</caption>
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+    </table>
+-->
+    <table border="1px" width="70%" style="border-collapse: collapse;">
+        <!--Title of Table-->
+        <caption>Students:Class</caption>
+        <!--Head of Table contain title of heads-->
+        <thead style="background-color: #cef8e8;">
+            <tr>
+                <th>id</th>
+                <th>student name</th>
+                <th>age</th>
+                <th>phone</th>
+            </tr>
+        </thead>
+        <!--START of Table BODY-->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Student1</td>
+                <td>43</td>
+                <td>+999 111 222 333</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Student2</td>
+                <td>33</td>
+                <td>+999 444 555 666</td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td rowspan="2">Student3</td>
+                <td rowspan="2">17</td>
+                <td>+999 777 888 999</td>
+            </tr>
+            <tr>
+                <td>+999 121 131 141</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Student4</td>
+                <td>16</td>
+                <td>+999 151 161 171</td>
+            </tr>
+        </tbody>
+
+        <tfoot style="background-color: rgb(94, 220, 36);
+               color: #fff;">
+            <tr>
+                <th colspan="4">Students Total : 4</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <pre>
+        <b>
+        NOTE::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        A table in HTML consists of table cells inside rows and columns.
+        ---------------------------------------------------------------- 
+        The table tag defines an HTML table. An HTML table consists of one table element 
+        and one or more tr, th, and td elements. The tr element defines a table row, the 
+        th element defines a table header, and the td element defines a table cell. An 
+        HTML table may also include caption, colgroup, thead, tfoot, and tbody elements.
+        --------------------------------------------------------------------------------
+        HTML tables allow web developers to arrange data into rows and columns.
+        --------------------------------------------------------------------------------
+        Table Cells ====================================================
+        ----------------------------------------------------------------
+        Each table cell is defined by a td and a td close tag.
+        td stands for table data. Everything between td and td close tag 
+        are the content of the table cell.
+        Note: A table cell can contain all sorts of HTML elements: text, 
+        images, lists, links, other tables, etc.
+        ----------------------------------------------------------------
+        Table Rows =====================================================
+        ----------------------------------------------------------------
+        Each table row starts with a tr and ends with a tr close tag.
+        tr stands for table row. You can have as many rows as you like 
+        in a table; just make sure that the number of cells are the same 
+        in each row.
+        Note: There are times when a row can have less or more cells than 
+        another.
+        ----------------------------------------------------------------
+        Table Headers ==================================================
+        ----------------------------------------------------------------
+        Sometimes you want your cells to be table header cells. In those 
+        cases use the th tag instead of the td tag:
+        th stands for table header.
+        By default, the text in th elements are bold and centered, but 
+        you can change that with CSS.
+        ================================================================
+        HTML Table Tags
+        ================================================================
+        Tag	       Description
+        ----------------------------------------------------------------
+        table 	   Defines a table
+        th         Defines a header cell in a table
+        tr         Defines a row in a table
+        td         Defines a cell in a table
+        caption	   Defines a table caption
+        colgroup   Specifies a group of one or more columns in a table 
+                   for formatting
+        col        Specifies column properties for each column within a 
+                   colgroup element
+        thead	   Groups the header content in a table
+        tbody	   Groups the body content in a table
+        tfoot	   Groups the footer content in a table
+        =====================================================================
+        For a complete list of all available HTML tags, 
+        visit HTML Tag Reference https://www.w3schools.com/tags/default.asp
+        =====================================================================
+        DEVELOPED by Adel MD. | Umbrella Corporation &copy; 2022 DEC 31
+        HAPPY NEW 2023 ......................................................
+        =====================================================================
+        </b>
+    </pre>
+</body>
+</html>
+
+
+
